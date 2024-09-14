@@ -1,0 +1,359 @@
+[
+	{
+		"nome": "ACICLOVIR 200MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "AMOXICILINA 500MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "AZITROMICINA 500MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "BECLOMETASONA 200 MCG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "BIPERIDENO 2MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "BUDESONIDA 32 MCG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "CLONAZEPAM 0,5MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "CLOPIDOGREL 75MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "CLORPROMAZINA 100MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "DIAZEPAM 5MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "DIGOXINA 0,25MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "DIPIRONA SÓDICA 500MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "ENALAPRIL 10MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "ESTRADIOL 1MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "ESTRIOL 1MG/G",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "FENITOÍNA 100MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "FENOBARBITAL 100MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "FLUOXETINA 20MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "GLIBENCLAMIDA 5MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "GLICLAZIDA 60MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "GLYCINE MAX 150MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "HALOPERIDOL 5MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "HIDRALAZINA 25MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "HIDROCLOROTIAZIDA 25MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "IBUPROFENO 600MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "IMIPRAMINA 25MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "INSULINA HUMANA REGULAR 100 UI/ML - 10 ML",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "LEVOFLOXACINO 500MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "LEVOMEPROMAZINA 100MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "LEVOMEPROMAZINA 25MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "MEDROXIPROGESTERONA 10MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "METFORMINA 850MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "METILDOPA 250MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "NALTREXONA 50MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "NISTATINA 100.000 UI/ML - 50 ML",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "NITROFURANTOÍNA 100MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "ÓLEO MINERAL 100% - 100 ML",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "OMEPRAZOL 20MG",
+		"endereco": {
+			"nome": "UBS - Vila Barros",
+			"endereco": "R. Carlos Korkisho, 300"
+		}
+	},
+	{
+		"nome": "PARACETAMOL 500MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "PENTOXIFILINA 400MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "PROPRANOLOL 40MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "RISPERIDONA 1MG/ML - 30 ML",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "RIVAROXABANA 20MG",
+		"endereco": {
+			"nome": "UBS - Vila Galvão",
+			"endereco": "Av. Doná Eugênia Machado da Silva, 354"
+		}
+	},
+	{
+		"nome": "SALBUTAMOL 100 MCG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "SECNIDAZOL 1 G",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "SERTRALINA 50MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "TIAMINA (VITAMINA B1) 300MG",
+		"endereco": {
+			"nome": "UBS - Tranquilidade",
+			"endereco": "Av. Emílio Ribas, 1897"
+		}
+	},
+	{
+		"nome": "TOBRAMICINA 0,3% - 5 ML",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "TRAMADOL 50MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "VARFARINA SODICA 5MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	},
+	{
+		"nome": "VENLAFAXINA 75MG",
+		"endereco": {
+			"nome": "UBS - Jardim Paraventi",
+			"endereco": "R. Villa Lobos, 340"
+		}
+	}
+]
