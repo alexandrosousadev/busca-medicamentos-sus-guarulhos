@@ -23,7 +23,6 @@
         </form>
 
         <section id="resultado">
-           
         </section>
     </main>
 
@@ -35,16 +34,45 @@
         document.getElementById('buscar-form').addEventListener('submit', function(event) {
             event.preventDefault();
             
-            const medicamento = document.getElementById('medicamento').value;
+            const medicamento = document.getElementById('medicamento').value.toLowerCase();
             const estado = document.getElementById('estado').checked;
 
-            let mensagem = `Resultado da busca por: ${medicamento} em Guarulhos`;
+            // Seleciona o arquivo JSON correto com base no estado
+            const jsonFile = estado ? 'data_estado_sp.json' : 'data_guarulhos.json';
 
-            if (estado) {
-                mensagem += ' e no Estado de São Paulo';
-            }
+            // Log para verificar qual arquivo JSON está sendo carregado
+            console.log(`Carregando dados de: ${jsonFile}`);
 
-            document.getElementById('resultado').innerText = mensagem;
+            // Carrega o JSON correspondente
+            fetch(jsonFile)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar o arquivo JSON');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Log para verificar os dados carregados
+                    console.log('Dados carregados:', data);
+
+                    // Busca o medicamento no JSON
+                    const resultado = data.find(item => item.nome.toLowerCase() === medicamento);
+                    
+                    let mensagem = '';
+
+                    if (resultado) {
+                        mensagem = `Medicamento encontrado: ${resultado.nome} disponível em ${estado ? 'São Paulo' : 'Guarulhos'}`;
+                    } else {
+                        mensagem = 'Nenhum medicamento encontrado com esse nome.';
+                    }
+
+                    // Exibe o resultado
+                    document.getElementById('resultado').innerText = mensagem;
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar os dados:', error);
+                    document.getElementById('resultado').innerText = 'Erro ao carregar os dados.';
+                });
         });
     </script>
 </body>
