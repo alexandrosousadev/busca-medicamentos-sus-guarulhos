@@ -24,7 +24,6 @@
         </form>
 
         <section id="resultado">
-           
         </section>
     </main>
 
@@ -43,7 +42,11 @@
             const jsonFile = estado ? 'data_estado_sp.json' : 'data_guarulhos.json';
 
             // Log para verificar qual arquivo JSON está sendo carregado
+<<<<<<< HEAD
            //console.log(Carregando dados de: ${jsonFile});
+=======
+            console.log(`Carregando dados de: ${jsonFile}`);
+>>>>>>> 9467a5057267acafcad6f7cbf6c9ae980230451f
 
             // Carrega o JSON correspondente
             fetch(jsonFile)
