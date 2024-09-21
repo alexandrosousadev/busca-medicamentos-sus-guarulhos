@@ -1,84 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscar Medicamentos - Guarulhos e SP</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Portal da Saúde - Guarulhos</h1>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Buscar Medicamentos - Guarulhos e SP</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Portal da Saúde - Guarulhos</h1>
+		</header>
 
-    <main>
-        <h2>Buscar Medicamentos</h2>
-        <form id="buscar-form">
-            <label for="medicamento">Digite o nome do medicamento:</label>
-            <input type="text" id="medicamento" name="medicamento" required>
-            <div>
-                <input type="checkbox" id="estado" name="estado">
-                <label for="estado">Buscar também no Estado de São Paulo</label>
-            </div>
-            <button type="submit">Pesquisar</button>
-        </form>
+		<main>
+			<h2>Buscar Medicamentos</h2>
+			<form id="buscar-form">
+				<label for="medicamento">Digite o nome do medicamento:</label>
+				<input type="text" id="medicamento" name="medicamento" required />
+				<div>
+					<input type="checkbox" id="estado" name="estado" />
+					<label for="estado">Buscar também no Estado de São Paulo</label>
+				</div>
+				<button type="submit">Pesquisar</button>
+			</form>
 
-        <section id="resultado">
-        </section>
-    </main>
+			<section id="resultado"></section>
+		</main>
 
-    <footer>
-        <p>2024 &copy; Portal da Saúde - Todos os direitos reservados</p>
-    </footer>
+		<footer>
+			<p>2024 &copy; Portal da Saúde - Todos os direitos reservados</p>
+		</footer>
 
-    <script>
-        document.getElementById('buscar-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            const medicamento = document.getElementById('medicamento').value.toLowerCase();
-            const estado = document.getElementById('estado').checked;
-
-            // Seleciona o arquivo JSON correto com base no estado
-            const jsonFile = estado ? 'data_estado_sp.json' : 'data_guarulhos.json';
-
-            // Log para verificar qual arquivo JSON está sendo carregado
-<<<<<<< HEAD
-           //console.log(Carregando dados de: ${jsonFile});
-=======
-            console.log(`Carregando dados de: ${jsonFile}`);
->>>>>>> 9467a5057267acafcad6f7cbf6c9ae980230451f
-
-            // Carrega o JSON correspondente
-            fetch(jsonFile)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Erro ao carregar o arquivo JSON');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Log para verificar os dados carregados
-                    console.log('Dados carregados:', data);
-
-                    // Busca o medicamento no JSON
-                    const resultado = data.find(item => item.nome.toLowerCase() === medicamento);
-                    
-                    let mensagem = '';
-
-                    if (resultado) {
-                        mensagem = `Medicamento encontrado: ${resultado.nome} disponível em ${estado ? 'São Paulo' : 'Guarulhos'}`;
-                    } else {
-                        mensagem = 'Nenhum medicamento encontrado com esse nome.';
-                    }
-
-                    // Exibe o resultado
-                    document.getElementById('resultado').innerText = mensagem;
-                })
-                .catch(error => {
-                    console.error('Erro ao carregar os dados:', error);
-                    document.getElementById('resultado').innerText = 'Erro ao carregar os dados.';
-                });
-        });
-            </script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>
