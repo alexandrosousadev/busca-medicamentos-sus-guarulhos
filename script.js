@@ -26,13 +26,13 @@ function buscaRemedio(nomeRemedio, incluiEstadoSp) {
 		let resultadoEstadoSp = '';
 		let resultadoFinal = '';
 
-		const medicamentoEmGuarulhos = dataGuarulhos?.find(
-			(obj) => obj.nome.split(' ')[0].toLowerCase() === nomeRemedio
+		const medicamentoEmGuarulhos = dataGuarulhos?.find((obj) =>
+			obj.nome.toLowerCase().includes(nomeRemedio)
 		);
 		const medicamentoEmSp =
 			incluiEstadoSp &&
-			dataEstadoSp?.find(
-				(obj) => obj.nome.split(' ')[0].toLowerCase() === nomeRemedio
+			dataEstadoSp?.find((obj) =>
+				obj.nome.toLowerCase().includes(nomeRemedio)
 			);
 
 		resultadoGuarulhos = !!medicamentoEmGuarulhos
@@ -67,3 +67,4 @@ form.addEventListener('submit', function (event) {
 
 	resultado.innerText = resultadoBusca;
 });
+
